@@ -16,6 +16,7 @@ public class PepoleServiceTest {
    public void checkID(){
 	   Assert.assertTrue(this.pepoleService.checkID("", "冒蓓菡"));
 	   Assert.assertFalse(this.pepoleService.checkID("3201", "张三"));
+	   //请修改身份证号码
    }
    
 }
